@@ -29,9 +29,9 @@ figuring out how many more stations the US can build assuming there are already
 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 # First, represent it mathmatically to check if the generated permutations match the maths
-q1a = 26**3
+q1a = 0
 
-q1b = len([''.join(p) for p in product(alphabet, repeat=3)])
+q1b = 0
 
 """
 Question 2:
@@ -46,9 +46,9 @@ them know just how many permutations there will be.
 """
 buzzwords = { "Svelte", "Uber",  "Peak", "Apex", "Titan", "Executive" }
 
-q2a = 6 * 6**2 * 6**3
+q2a = 0
 
-q2b = len([''.join(b) for b in product(buzzwords, repeat=6)])
+q2b = 0
 
 """
 Question 3:
@@ -59,6 +59,6 @@ Given 15 pool balls to a table, how many unique ways can they be racked up?
 
 balls = { "b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "b9", "b10", "b11", "b12", "b13", "b14", "b15"}
 
-q3a = factorial(15)/factorial(15 - 15) # or just factorial(15)
+q3a = 0
 
-#q3b = len({b for b in permutations(balls, 15)}) # this is unsafe to run
+q3b = 0
