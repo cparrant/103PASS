@@ -20,25 +20,33 @@ Q3 – Create a Regular Expression to match only the email:
 
 """
 
-email_pattern = ""
+email_pattern = r""
 
 """
 Q4 – The phone number:
 
 """
 
-phone_pattern = ""
+phone_pattern = r""
 
 """
 Q5 – The website:
 
 """
 
-site_pattern = ""
+site_pattern = r""
 
 """
 Q6 – and finally, all at once:
 
 """
 
+all_patterns = r""
+
 ### SOME LOGIC TO GET AND PRINT OUT THE RESULTS ###
+
+"""
+This line may come in handy for Q6:
+results = [item for group in matches for item in group if item]
+
+"""
